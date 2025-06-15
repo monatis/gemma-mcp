@@ -15,7 +15,7 @@ A Python package that combines Google's Gemma language model with MCP (Model Con
 ## Installation
 
 ```bash
-pip install gemma-mcp
+uv add gemma-mcp # or pip install gemma-mcp if you love the old way
 ```
 
 ## Requirements
