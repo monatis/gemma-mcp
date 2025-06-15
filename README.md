@@ -1,6 +1,6 @@
 # Gemma MCP Client
 
-A Python package that combines Google's Gemma language model with MCP (Model Control Protocol) server integration, enabling powerful function calling capabilities across both local functions and remote MCP tools.
+A Python package that combines Google's Gemma language model with MCP (Model Content Protocol) server integration, enabling powerful function calling capabilities across both local functions and remote MCP tools.
 
 ## Features
 
