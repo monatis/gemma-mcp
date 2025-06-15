@@ -1,0 +1,33 @@
+[project]
+name = "gemma-mcp"
+version = "0.1.1"
+keywords = ["gemma", "gemma3", "mcp", "function-calling"]
+authors = [
+    { name = "Yusuf Sarıgöz", email = "yusufsarigoz@gmail.com"}
+]
+description = "MCP client and function calling for Gemma-3"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+dependencies = [
+    "google-genai",
+    "fastmcp",
+]
+
+[project.urls]
+homepage = "https://github.com/monatis/gemma-mcp"
+project = "https://github.com/monatis/gemma-mcp"
+repository = "https://github.com/monatis/gemma-mcp"
+
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.3.4",
+]
